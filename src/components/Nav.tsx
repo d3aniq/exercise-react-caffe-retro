@@ -2,10 +2,9 @@ import React from 'react';
 import { sections } from '../data/sections';
 
 /**
- * Top navigation component.
- *
- * Generates anchor links to each section using the data from sections.ts.
- * Includes a visually hidden heading for accessibility.
+ * Navigation component for the Caffe Retro site.
+ * It renders a header with a list of links to each section.
+ * The links are generated from the sections data.
  */
 export default function Nav() {
   return (

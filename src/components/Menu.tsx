@@ -2,9 +2,8 @@ import React from 'react';
 import type { MenuItem } from '../data/sections';
 
 /**
- * Renders a list of menu items inside a styled container.
- *
- * The menu is labelled semantically and lists each item with its price.
+ * Menu component to display a list of menu items with their prices.
+ * It receives an array of MenuItem objects and renders them in a styled list.
  */
 export default function Menu({ items }: { items: MenuItem[] }) {
   return (

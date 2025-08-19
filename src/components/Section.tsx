@@ -3,11 +3,9 @@ import type { SectionData } from '../data/sections';
 import Menu from './Menu';
 
 /**
- * Renders a full-screen section (Hot, Juicy, or Cosy) with its content.
- *
- * Each section uses a background image via inline style and contains a heading,
- * two ribbon paragraphs and a menu list. The id prop ties the element to
- * navigation anchors.
+ * Section component that renders a single section of the Caffe Retro site.
+ * It displays the section title, ribbons, and a menu of items.
+ * The background image is set via inline styles for each section.
  */
 export default function Section({ s }: { s: SectionData }) {
   return (

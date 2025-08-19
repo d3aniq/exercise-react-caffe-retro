@@ -1,10 +1,3 @@
-/**
- * Data definitions for the three sections of the Caffe Retro site.
- *
- * Each section includes an identifier used for navigation anchors, a title,
- * two ribbon messages, a background image path (relative to the public folder),
- * and a list of menu items with names and prices.
- */
 export type MenuItem = { name: string; price: string };
 
 export type SectionData = {
@@ -15,7 +8,6 @@ export type SectionData = {
   menu: MenuItem[];
 };
 
-// Define all sections in an array to drive the UI programmatically
 export const sections: SectionData[] = [
   {
     id: 'hot',
