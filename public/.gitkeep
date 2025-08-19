@@ -1,0 +1,5 @@
+/* Placeholder file to ensure the public directory is tracked in version control.
+ *
+ * Put your assets (images, fonts) in this folder. Vite will serve files from
+ * the "public" directory at the root URL during development and after build.
+ */
